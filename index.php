@@ -17,7 +17,7 @@
                 echo "Sorry! your file is too large.";
             }else{
 
-                $img_ex = pathinfo($image_name, PATHINFO_EXTENSION); //nction to take file extension
+                $img_ex = pathinfo($image_name, PATHINFO_EXTENSION); //function to take file extension
                 $img_ex_lc = strtolower($img_ex);
 
                 $allowed_exs = array("jpg", "jpeg", "png");
